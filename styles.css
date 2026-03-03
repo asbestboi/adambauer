@@ -35,7 +35,7 @@ body{
   background:
     radial-gradient(circle at var(--mx) var(--my),
       rgba(0,255,150,0.22),
-      transparent 55%),
+      transparent 100%),
     radial-gradient(circle at 80% 50%,
       rgba(0,200,255,0.14),
       transparent 50%);
@@ -102,8 +102,10 @@ body{
 }
 
 h1{
-  font-size:40px;
+  font-size:70px;
   margin-bottom:10px;
+  font-family: 'Geo-Regular', sans-serif;
+  margin-top: 0;
 }
 
 h1 span{
